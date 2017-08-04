@@ -1,5 +1,5 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*HEADER-info*/
 
@@ -230,15 +230,163 @@ margin-bottom: 1.8rem;
 
 .video-icon-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  bottom:20px;
+  z-index: 2;
+
 }
 
 .avatar-icon {
+  border-radius: 30px;
+  padding: 1px;
 
+}
+
+.avatar-icon > img{
+  border-radius: 50px;
+  border: 1.5px solid white;
+  width: 400px;
+  height: 50px
+}
+.avatar-logo > img {
+ width: 30px;
+ height: 20px;
+}
+
+
+.logo-container {
+  width: 16.65%;
+  position: relative;
+  z-index: 2;
+  top:80px;
+
+}
+
+.logo {
+  text-align: center;
+  padding: 5px;
+}
+
+.logo > img {
+  width: 36px;
+  height: 29px;
+  vertical-align: middle;
+  cursor: pointer
+}
+
+.avatar-icon-box {
+  width: 10%;
+  height: 1vh;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.avatar-icon > img {
+  width: 50%;
 }
 
 .avatar-logo {
-font-size: 6px;
+font-size: 10px;
+
 }
 
+.logo-avatars {
+  display: flex;
+flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.logo-header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*GRAY BOX CONTENT*/
+
+.bottom-gray-container {
+  margin: 7rem 0 3rem 0;
+  padding: 7rem 0 7rem 0;
+  background: #323a45;
+
+}
+
+.inner-bottom-container {
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.bottom-gray-header > h1 {
+color: white;
+width: 100%;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+font-weight: 300;
+margin-bottom: 4rem;
+}
+
+.your-name {
+background-color: white;
+border-radius: 30px;
+width: 24%;
+padding: 10px 3px 2px 3px;
+text-align: center;
+display:inline-block;
+}
+
+.email-address {
+background-color: white;
+border-radius: 30px;
+width: 24%;
+padding: 10px 3px 2px 3px;
+text-align: center;
+display:inline-block;
+}
+
+.create-password {
+background-color: white;
+border-radius: 30px;
+width: 24%;
+text-align: center;
+padding: 10px 3px 2px 3px;
+display:inline-block;
+}
+
+.get-started {
+background-color:salmon;
+font-size: 11px;
+text-align: center;
+padding: 10px 3px 2px 3px;
+color: white;
+border-radius: 30px;
+width: 24%;
+display:inline-block;
+}
+
+.bottom-lower-info {
+color: white;
+text-align: center;
+margin-top: 3rem;
+
+}
+
+
 /*footer section*/
+
+.footer-container-box {
+  padding: 10rem 0 10rem 0;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+
+}
