@@ -1,0 +1,229 @@
+
+
+
+/*HEADER-info*/
+
+.header-wrapper {
+  padding-top: 2.8rem;
+  background: rgba(0,0,0,0,1);
+
+}
+
+.header > img {
+  float:left;
+  width:50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.header-options {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  font-size: 1rem;
+  color: blue;
+}
+
+.sign-up-button {
+  border-radius: 4rem;
+  width: 17%;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+  color: hotpink;
+  border: 2px solid hotpink;
+  cursor: pointer;
+}
+
+.header-menu {
+  font-size: 11px;
+  display: block;
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.sign-up-free {
+  color:slamon;
+}
+
+.halo4pic {
+  background: url(./img/halo4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+/*VIDEO # 1SECTION*/
+
+.middle-container {
+  padding: 16rem 1rem 16rem 1rem;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  letter-spacing: .075rem;
+
+}
+
+.middle-top-content {
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+  color:white;
+}
+
+.middle-lower-content {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color:white;
+
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+  font-size: 5px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  background-color: gray;
+
+}
+
+.get-started-button {
+  border: 3px solid hotpink;
+  width:30%;
+  background-color: hotpink;
+  border-radius: 40px;
+  color:white;
+  padding: .5rem 1rem .5rem 1rem;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.bottom-icons-video-section {
+  display:flex;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.info-containers{
+  padding: 4.375rem 0 5.375rem;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.info-wrapper {
+  margin: 0 0 8rem 0;
+}
+
+/*MIDDLE SECTION*/
+
+.box-left {
+  width: 50%;
+  background-color: lightggray;
+  display: inline-block;
+
+  align-content: left;
+
+}
+
+.box-right {
+  width: 50%;
+  margin: auto;
+  background-color: gfray;
+  display:block;
+  overflow: hidden;
+}
+
+.box-right > img {
+background-size: auto;
+}
+
+.icon-info-box > img {
+  width: 10%;
+}
+
+#img2 {
+  position:relative;
+  right:35rem;
+}
+
+#img4 {
+  position: relative;
+  right:50rem;
+}
+
+#img6 {
+  position: relative;
+  right:47rem;
+}
+
+#img8 {
+  position: relative;
+  right:23.1rem;
+}
+
+.header-info-section > h1 {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 2rem;
+  margin: 8.187rem 0 .98rem;
+}
+
+.lower-header-content {
+  margin-bottom: 3.125rem;
+}
+
+.icon-info-box {
+  margin-bottom: 1rem;
+}
+
+.final-box-paragraph {
+margin-bottom: 1.8rem;
+}
+
+.testimony-icon {
+  display: inline-block;
+}
+
+.testimony-name {
+  display: inline-block;
+}
+
+/*VIDEO BOX #2 Section*/
+
+
+.bottom-container-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10rem .5rem 10rem .5rem;
+}
+
+.header-bottom-video {
+  font-size: 45px;
+  color: white;
+}
+
+.quote-bottom-video {
+  margin-top: 3rem;
+  font-size: 20px;
+  color: lightgray;
+
+}
+
+.bottom-container-image {
+  background: url(./img/homebackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button-bottom-video {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  background-color: lightblue;
+}
