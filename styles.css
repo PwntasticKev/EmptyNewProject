@@ -227,3 +227,18 @@ margin-bottom: 1.8rem;
   margin-top: 1rem;
   background-color: lightblue;
 }
+
+.video-icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar-icon {
+
+}
+
+.avatar-logo {
+font-size: 6px;
+}
+
+/*footer section*/
