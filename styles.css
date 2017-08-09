@@ -85,7 +85,7 @@ a:hover {
 /*VIDEO # 1SECTION*/
 
 .middle-container {
-  padding: 16rem 1rem 16rem 1rem;
+  padding: 16rem 1rem 16.5rem 1rem;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -106,14 +106,17 @@ a:hover {
 }
 
 .play-button {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   font-size: 5px;
   border-radius: 40px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   cursor: pointer;
-  background-color: white;
+  background: url(./img/play.button.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 
 .play-button:hover {
   background-color: rgba(255, 255, 255, .9);
@@ -139,8 +142,9 @@ a:hover {
 
 .bottom-icons-video-section {
   display: flex;
+  cursor: pointer;
   justify-content: space-between;
-  padding: 0 2rem 0 2rem;
+  padding: 2rem 2rem 0 2rem;
   margin:auto;
   background-color: #F9F9FA;
 }
@@ -151,10 +155,9 @@ text-align: center;
 }
 
 .bottom-images > img {
-  width:10%;
-  height: 50px;
-  margin:auto;
-  align-items: center;
+  height: 47px;
+  margin-left: 4rem;
+
 }
 
 .info-containers {
@@ -178,6 +181,12 @@ text-align: center;
   padding: 0 5rem 0 5rem;
 }
 
+#right-boxes {
+  overflow:visible;
+  position: relative;
+  left: 2rem;
+}
+
 .box-right {
   width: 50%;
   margin: auto;
@@ -189,30 +198,38 @@ text-align: center;
   background-size: auto;
 }
 
+.honeycomb {
+  width: 100%;
+  overflow:hidden;
+}
+
 .icon-info-box>img {
-  width: 4%;
-  height: 4%;
+  width: 15%;
   cursor: pointer;
 }
 
 #img2 {
   position: relative;
-  right: 35rem;
+  right: 23.8rem;
 }
 
 #img4 {
   position: relative;
-  right: 50rem;
+  right: 32.4rem;
 }
 
 #img6 {
   position: relative;
-  right: 47rem;
+  right: 26.3rem;
 }
 
 #img8 {
   position: relative;
-  right: 23.1rem;
+  right: 9.1rem;
+}
+
+.box-right > honeycomb >img {
+  width: 100%;
 }
 
 .header-info-section>h1 {
@@ -226,6 +243,7 @@ text-align: center;
 
 .lower-header-content {
   margin-bottom: 3.125rem;
+  line-height: 30px;
 }
 
 .icon-info-box {
@@ -234,6 +252,8 @@ text-align: center;
 
 .final-box-paragraph {
   margin-bottom: 1.8rem;
+  line-height: 25px;
+    font-style: italic;
 }
 
 .testimony-icon {
@@ -258,8 +278,8 @@ text-align: center;
 
 .bottom-container-video {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   padding: 10rem .5rem 10rem .5rem;
 }
 
@@ -270,7 +290,8 @@ text-align: center;
 
 .quote-bottom-video {
   margin-top: 3rem;
-  font-size: 20px;
+  font-size: 1rem;
+
 
 }
 
@@ -281,17 +302,19 @@ text-align: center;
 }
 
 .button-bottom-video {
-  width: 50px;
-  height: 50px;
-  margin-top: 1rem;
-  background-color: lightblue;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-top: 1.5rem;
+  background: url(./img/play.button.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .video-icon-container {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   position: relative;
-  bottom: 20px;
+  bottom: 40px;
   z-index: 2;
 
 }
@@ -311,7 +334,6 @@ text-align: center;
 }
 
 .avatar-logo>img {
-  width: 30px;
   height: 20px;
 
 
@@ -327,11 +349,11 @@ text-align: center;
 .logo {
   text-align: center;
   padding: 5px;
+
 }
 
 .logo>img {
-  width: 36px;
-  height: 29px;
+  width: 70px;
   vertical-align: middle;
   cursor: pointer
 }
@@ -343,18 +365,24 @@ text-align: center;
 }
 
 .avatar-icon>img {
-  width: 50%;
+  width: 70px;
+  height: 70px;
 }
 
 .avatar-logo {
   font-size: 10px;
   margin-right: 3px;
+  position: relative;
+
 }
 
 .logo-avatars {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  position: relative;
+  bottom: 5rem;
+  padding: 0 6rem 0 6rem;
+
 }
 
 .logo-header {
@@ -370,8 +398,8 @@ text-align: center;
 /*GRAY BOX CONTENT*/
 
 .bottom-gray-container {
-  margin: 7rem 0 3rem 0;
-  padding: 7rem 0 7rem 0;
+  margin: 4rem 0 3rem 0;
+  padding: 7rem 1rem 7rem 1rem;
   background: #323a45;
 }
 
@@ -392,7 +420,7 @@ text-align: center;
 }
 
 .your-name {
-  background-color: white;
+  background-color: whitle;
   border-radius: 30px;
   width: 24%;
   padding: 10px 3px 2px 3px;
@@ -400,8 +428,17 @@ text-align: center;
   display: inline-block;
 }
 
+.make-account-info > input {
+  border-radius: 30px;
+  width:87%;
+  padding:.5rem;
+  height: 40px;
+  border: 2px solid #FF3366;
+  outline:none;
+}
+
 .email-address {
-  background-color: white;
+  background-color: whilte;
   border-radius: 30px;
   width: 24%;
   padding: 10px 3px 2px 3px;
@@ -419,7 +456,8 @@ text-align: center;
 }
 
 .get-started {
-  background-color: salmon;
+  background-color: #FF3366;
+  cursor: pointer;
   font-size: 11px;
   text-align: center;
   padding: 10px 3px 2px 3px;
@@ -430,16 +468,24 @@ text-align: center;
 }
 
 .bottom-lower-info {
-  color: white;
+  color: gray;
   text-align: center;
   margin-top: 3rem;
+
 }
 
+#terms {
+  border-bottom: thick white;
+  text-decoration: underline;
+}
+#terms:hover {
+  color:white;
+}
 
 /*footer section*/
 
 .footer-container-box {
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 2rem 5rem 2rem;
   text-decoration: none;
   padding: 3rem 4rem 3rem 4rem;
   display: flex;
@@ -450,27 +496,38 @@ text-align: center;
 .footer-logo-container> div > img {
   display: flex;
   justify-content: space-between;
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
+
 
 .footer-logo-container {
   display: flex;
-
+  justify-content: space-between;
+  position: relative;
+  cursor:pointer;
+  bottom:4rem;
 
 }
 
 .footer-box {
   margin-left: 1rem;
-  padding-left: 2rem;
+  margin-right: 2rem;
   line-height: 2rem;
-  padding-left: 10px;
+  font-size: .6rem;
   background-color: lightgrkay;
 }
 
 .box-header {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 580;
   font-family: sans-serif;
+}
+
+#get-in-touch-header {
+  margin-top: 1.5rem;
+
 }
 
 .column-footer {
@@ -479,6 +536,8 @@ text-align: center;
 }
 
 .footer-logo>img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 60px;
+
+
 }
